@@ -1,0 +1,65 @@
+import { Link, useLocation } from "react-router-dom";
+
+interface NavbarProps {
+  showSearch?: boolean;
+}
+
+export default function Navbar({
+  showSearch = true,
+}: NavbarProps) {
+  const location = useLocation();
+  
+  return (
+    <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4 sticky-top">
+      <div className="container-fluid px-3">
+        <Link className="navbar-brand d-flex align-items-center" to="/">
+          <i className="bi bi-book me-2"></i>
+          Japanese Vocabulary
+        </Link>
+        
+        <div className="d-flex">
+          {/* Dev Page link */}
+          <ul className="navbar-nav me-2">
+            <li className="nav-item">
+              <Link
+                className={`nav-link ${
+                  location.pathname === "/dev" ? "active" : ""
+                } d-flex align-items-center`}
+                to="/dev"
+              >
+                <i className="bi bi-gear me-1"></i>
+                Dev Page
+              </Link>
+            </li>
+          </ul>
+          
+          {/* Mobile toggle button */}
+          <button
+            className="navbar-toggler ms-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-label="Toggle navigation"
+            title="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        
+        {/* Mobile menu */}
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto d-lg-none">
+            <li className="nav-item">
+              <Link
+                className={`nav-link ${location.pathname === "/" ? "active" : ""}`}
+                to="/"
+              >
+                Home
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
+}
