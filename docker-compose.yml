@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vocabulary-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+    restart: unless-stopped
