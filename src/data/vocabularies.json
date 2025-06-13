@@ -802,5 +802,29 @@
     "hiragana": "どうして",
     "romaji": "doushite",
     "vietnamese": "tại sao"
+  },
+  {
+    "kanji": "面白い",
+    "hiragana": "おもしろい",
+    "romaji": "omoshiroi",
+    "vietnamese": "thú vị, hấp dẫn"
+  },
+  {
+    "kanji": "難しい",
+    "hiragana": "むずかしい",
+    "romaji": "muzukashii",
+    "vietnamese": "khó, khó khăn"
+  },
+  {
+    "kanji": "景色",
+    "hiragana": "けしき",
+    "romaji": "keshiki",
+    "vietnamese": "phong cảnh"
+  },
+  {
+    "kanji": "買い物します",
+    "hiragana": "かいものします",
+    "romaji": "kaimono shimasu",
+    "vietnamese": "đi mua sắm"
   }
 ]
