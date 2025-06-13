@@ -9,6 +9,11 @@ export default function VocabularyList({
   vocabularies,
   isLoading,
 }: VocabularyListProps) {
+  // Sort vocabularies alphabetically by romaji
+  const sortedVocabularies = [...vocabularies].sort((a, b) =>
+    a.romaji.localeCompare(b.romaji)
+  );
+
   if (isLoading) {
     return (
       <div className="vocabulary-table-container">
@@ -44,7 +49,7 @@ export default function VocabularyList({
             </tr>
           </thead>
           <tbody>
-            {vocabularies.map((vocab, index) => (
+            {sortedVocabularies.map((vocab, index) => (
               <tr key={index} className="vocab-row">
                 <td className="kanji-text">{vocab.kanji}</td>
                 <td className="hiragana-text">{vocab.hiragana}</td>
