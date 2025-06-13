@@ -694,5 +694,95 @@
     "hiragana": "さき",
     "romaji": "sakki",
     "vietnamese": "Cách đây không lâu, ngay bây giờ"
+  },
+  {
+    "kanji": "冷たい",
+    "hiragana": "つめたい",
+    "romaji": "tsumetai",
+    "vietnamese": "lạnh (dùng cho đồ vật, đồ uống, cảm giác, thái độ lạnh lùng)"
+  },
+  {
+    "kanji": "飛行機",
+    "hiragana": "ひこうき",
+    "romaji": "hikooki",
+    "vietnamese": "máy bay"
+  },
+  {
+    "kanji": "寒い",
+    "hiragana": "さむい",
+    "romaji": "samui",
+    "vietnamese": "lạnh (dùng cho thời tiết, khí hậu)"
+  },
+  {
+    "kanji": "毎年",
+    "hiragana": "まいとし",
+    "romaji": "maitoshi",
+    "vietnamese": "hàng năm, mỗi năm"
+  },
+  {
+    "kanji": "暑い / 熱い",
+    "hiragana": "あつい",
+    "romaji": "atsui",
+    "vietnamese": "nóng"
+  },
+  {
+    "kanji": "多い",
+    "hiragana": "おおい",
+    "romaji": "ooi",
+    "vietnamese": "nhiều"
+  },
+  {
+    "kanji": "酸っぱい",
+    "hiragana": "すっぱい",
+    "romaji": "suppai",
+    "vietnamese": "chua (vị)"
+  },
+  {
+    "kanji": "暇",
+    "hiragana": "ひま",
+    "romaji": "hima",
+    "vietnamese": "rảnh rỗi, thời gian rảnh"
+  },
+  {
+    "kanji": "辛い",
+    "hiragana": "からい",
+    "romaji": "karai",
+    "vietnamese": "cay"
+  },
+  {
+    "kanji": "美術館",
+    "hiragana": "びじゅつかん",
+    "romaji": "bijutsukan",
+    "vietnamese": "viện bảo tàng mỹ thuật"
+  },
+  {
+    "kanji": "電車",
+    "hiragana": "でんしゃ",
+    "romaji": "densha",
+    "vietnamese": "tàu điện, xe lửa (chạy bằng điện)"
+  },
+  {
+    "kanji": "忙しい",
+    "hiragana": "いそがしい",
+    "romaji": "isogashi",
+    "vietnamese": "bận rộn"
+  },
+  {
+    "kanji": "賑やか",
+    "hiragana": "にぎやか",
+    "romaji": "nigiyaka",
+    "vietnamese": "náo nhiệt, sôi động, đông vui"
+  },
+  {
+    "kanji": "甘い",
+    "hiragana": "あまい",
+    "romaji": "amai",
+    "vietnamese": "ngọt"
+  },
+  {
+    "kanji": "所",
+    "hiragana": "ところ",
+    "romaji": "tokoro",
+    "vietnamese": "nơi, chỗ, địa điểm"
   }
 ]
