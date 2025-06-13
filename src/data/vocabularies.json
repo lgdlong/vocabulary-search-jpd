@@ -784,5 +784,23 @@
     "hiragana": "ところ",
     "romaji": "tokoro",
     "vietnamese": "nơi, chỗ, địa điểm"
+  },
+  {
+    "kanji": "見学します",
+    "hiragana": "けんがくします",
+    "romaji": "kengaku shimasu",
+    "vietnamese": "tham quan để học hỏi, đi thực tế"
+  },
+  {
+    "kanji": "美味しい",
+    "hiragana": "おいしい",
+    "romaji": "oishii",
+    "vietnamese": "ngon"
+  },
+  {
+    "kanji": "どうして",
+    "hiragana": "どうして",
+    "romaji": "doushite",
+    "vietnamese": "tại sao"
   }
 ]
